@@ -1,0 +1,35 @@
+    body {
+      margin: 0;
+    }
+
+    .container {
+      position: relative;
+      width: 600px;
+      height: 400px;
+      margin: 50px auto;
+    }
+
+    .box {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+    }
+
+    .red {
+      background: #f07a7a;
+      top: 50px;
+      left: 150px;
+    }
+
+    .blue {
+      background: #7a84d6;
+      top: 100px;
+      left: 250px;
+      z-index: 2;
+    }
+
+    .green {
+      background: #4fd08a;
+      top: 180px;
+      left: 350px;
+    }
